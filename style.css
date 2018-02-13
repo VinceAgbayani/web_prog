@@ -1,0 +1,101 @@
+@media(max-width: 768px) 
+{
+	.mod1
+	{
+	justify-content: space-between;
+	overflow: hidden;
+
+	}
+
+}
+
+.container
+{
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+
+}
+.container_col
+{
+	display: flex;
+	flex-direction: column;
+	flex-flow: column;
+}
+
+.mod1
+{
+	justify-content: space-between;
+	margin-left: 10em;
+	margin-right: 10em;
+
+}
+
+.mod2
+{
+	justify-content: center;
+	flex-shrink: 2;
+
+}
+
+.mod3
+{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.mod4
+{
+	margin-top: 5em;
+    justify-content: space-between;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+.mb
+{
+	margin-top: 10em;
+}
+
+.img1
+{
+	flex: 1fr;
+	object-fit: cover;
+	margin-bottom: 2em;
+}
+
+
+.mark
+{
+	flex-basis: 100%;
+}
+
+.wrapper 
+{
+  display: flex;
+}
+
+.wrapper .column 
+{
+  flex: 1 1 0;
+}
+
+.column div 
+{
+  flex-direction: column;
+}
+
+.col1
+{
+	margin-top: 8em;
+}
+
+.col2
+{
+	margin-top: 4em;
+}
+
+p
+{
+	margin: 0;
+}
+
